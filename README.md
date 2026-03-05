@@ -43,6 +43,7 @@ High-confidence Antp peaks
       └──────────► Motif analysis
                      (FIMO / MEME suite)
 
+
 **#Pipeline steps:**
 1. Alignment to dm6 genome using Bowtie2
 2. BAM processing using SAMtools
