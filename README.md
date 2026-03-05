@@ -6,7 +6,7 @@ The data and associated analysis are reported in *Data in Brief*.
 
 This repository contains the scripts used to reproduce the computational analysis.
 
-**#Analysis workflow**
+## Analysis workflow
 
 Raw FASTQ files
       │
