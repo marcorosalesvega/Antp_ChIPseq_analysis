@@ -6,42 +6,44 @@ The data and associated analysis are reported in *Data in Brief*.
 
 This repository contains the scripts used to reproduce the computational analysis.
 
-#Raw FASTQ files
-       │
-       ▼
+**#Analysis workflow**
+
+Raw FASTQ files
+      │
+      ▼
 Quality control
 (FastQC)
-       │
-       ▼
+      │
+      ▼
 Read alignment
 (Bowtie2 → dm6 genome)
-       │
-       ▼
-BAM processing
-(SAMtools)
+      │
+      ▼
+BAM processing (SAMtools)
 • sorting
 • MAPQ ≥ 30 filtering
 • duplicate removal
 • blacklist filtering
-       │
-       ▼
+      │
+      ▼
 Peak calling
 (MACS2)
-       │
-       ▼
+      │
+      ▼
 Replicate reproducibility
 (IDR ≤ 0.05)
-       │
-       ▼
+      │
+      ▼
 High-confidence Antp peaks
 (1,188 regions)
-       │
-       ├───────────────┬────────────────
-       ▼               ▼
-Signal visualization   Motif analysis
-(deepTools)            (FIMO / MEME suite)
+      │
+      ├──────────► Signal visualization
+      │              (deepTools)
+      │
+      └──────────► Motif analysis
+                     (FIMO / MEME suite)
 
-#Pipeline steps:
+**#Pipeline steps:**
 1. Alignment to dm6 genome using Bowtie2
 2. BAM processing using SAMtools
 3. Peak calling using MACS2
@@ -49,7 +51,7 @@ Signal visualization   Motif analysis
 5. Visualization using deepTools
 6. Motif scanning using FIMO (MEME suite)
 
-#Software versions:
+**#Software versions:**
 Bowtie2 (2.2.5).
 SAMtools (1.16.1).
 MACS2 (2.1.1).
