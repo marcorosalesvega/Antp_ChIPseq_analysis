@@ -2,7 +2,7 @@
 Bioinformatics pipeline for the analysis of Flag-Antp ChIP-seq data generated from an endogenously FLAG-tagged Antennapedia (Antp) allele in *Drosophila melanogaster* embryos (GEO: GSE318263).
 
 The dataset describes genome-wide Flag-Antp binding profiles in 3–7 h AEL embryos, obtained using chromatin immunoprecipitation followed by high-throughput sequencing. 
-The data and associated analysis are reported in Data in Brief.
+The data and associated analysis are reported in *Data in Brief*.
 
 This repository contains the scripts used to reproduce the computational analysis.
 
