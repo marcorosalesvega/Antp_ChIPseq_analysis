@@ -1,7 +1,9 @@
 # Flag-Antp ChIP-seq analysis
-Bioinformatics pipeline for the analysis of Flag-Antp ChIP-seq data in *Drosophila melanogaster* embryos (GEO: GSE318263)
+Bioinformatics pipeline for the analysis of Flag-Antp ChIP-seq data generated from an endogenously FLAG-tagged Antennapedia (Antp) allele in Drosophila melanogaster embryos (GEO: GSE318263).
 
-This repository contains the scripts used for the analysis of Flag-Antp ChIP-seq data reported in Data in Brief.
+The dataset describes genome-wide Antp binding profiles in 3–7 h AEL embryos, obtained using chromatin immunoprecipitation followed by high-throughput sequencing. The data and associated analysis are reported in Data in Brief.
+
+This repository contains the scripts used to reproduce the computational analysis.
 
 Pipeline steps:
 1. Alignment to dm6 genome using Bowtie2
