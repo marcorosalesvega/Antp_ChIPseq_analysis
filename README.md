@@ -12,9 +12,9 @@ Pipeline steps:
 6. Motif scanning using FIMO (MEME suite)
 
 Software versions:
-Bowtie2 v2.2.5
-SAMtools v1.16.1  
-MACS2 v2.1.1  
-BEDTools v2.30.0
-deepTools v3.5.1  
-MEME suite (FIMO) 
+Bowtie2 (v2.2.5).
+SAMtools (v1.16.1).
+MACS2 (v2.1.1).
+BEDTools (v2.30.0).
+deepTools (v3.5.1).
+MEME suite (FIMO). 
