@@ -9,16 +9,5 @@ Raw sequencing data are available at **GEO: GSE318263**.
 This repository contains the scripts used to reproduce the computational analysis.
 
 ---
+<img width="934" height="2073" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/fcd1c769-8f8e-4bcc-aed0-e6ea151f996e" />
 
-## Analysis workflow
-
-```mermaid
-flowchart TD
-  A[Raw FASTQ files] --> B[Quality control<br/>(FastQC)]
-  B --> C[Read alignment<br/>(Bowtie2 → dm6)]
-  C --> D[BAM processing<br/>(SAMtools)<br/>• sorting<br/>• MAPQ ≥ 30 filtering<br/>• duplicate removal<br/>• blacklist filtering]
-  D --> E[Peak calling<br/>(MACS2)]
-  E --> F[Replicate reproducibility<br/>(IDR ≤ 0.05)]
-  F --> G[High-confidence Antp peaks<br/>(1,188 regions)]
-  G --> H[Signal visualization<br/>(deepTools)]
-  G --> I[Motif analysis<br/>(FIMO / MEME suite)]
