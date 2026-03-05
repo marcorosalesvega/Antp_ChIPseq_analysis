@@ -1,4 +1,4 @@
-# Antp_ChIPseq_analysis
+# Antp ChIPseq analysis
 Bioinformatics pipeline for the analysis of Flag-Antp ChIP-seq data in *Drosophila melanogaster* embryos (GEO: GSE318263)
 
 This repository contains the scripts used for the analysis of Flag-Antp ChIP-seq data reported in Data in Brief.
