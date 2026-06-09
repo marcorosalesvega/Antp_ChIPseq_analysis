@@ -11,3 +11,19 @@ This repository contains the scripts used to reproduce the computational analysi
 ---
 <img width="934" height="2073" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/fcd1c769-8f8e-4bcc-aed0-e6ea151f996e" />
 
+# Antp ChIP-seq analysis
+
+Scripts and commands used for the Antennapedia ChIP-seq analysis in *Drosophila melanogaster* embryos.
+
+## 1. Quality control with FastQC
+
+Raw paired-end FASTQ files were first inspected using FastQC.
+
+```bash
+mkdir -p fastqc_results
+
+fastqc \
+  sample_R1.fastq.gz \
+  sample_R2.fastq.gz \
+  -o fastqc_results
+```
